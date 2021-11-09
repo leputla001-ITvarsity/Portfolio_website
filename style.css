@@ -1,0 +1,313 @@
+body
+{
+     background-color:white;
+}
+.Menubar
+{
+  background-color:white;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.Menubar a
+{
+  float: left;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.Menubar a:hover
+{
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.Menubar a.active 
+{
+  background-color: #006400;
+  color: white;
+}
+#Header
+{
+    padding: 20px 0px 40px 0px;
+    background-color: #006400;
+    text-align: center;
+}
+
+#Header h1
+{
+    letter-spacing: 0.1em;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#Header p
+{
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+h1
+{
+    font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+    color: #006400;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2
+{
+    color:#006400;
+    text-transform: uppercase;
+    font-family: 'Gabriola', sans-serif;
+}
+#page p
+{
+    font-family: 'Gabriola', sans-serif;
+    width: 50%;
+    font-size: 20px;
+    font-weight: 800;
+}
+p
+{
+    text-align:left;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.Degree
+{
+    color: #006400;
+    font-family: 'Gabriola', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+#Chemistry
+{
+    float: right;
+    width: 40%;
+    padding-left: 30px;
+}
+#Chemistry h2
+{  
+    font-family: 'Gabriola', sans-serif;
+    text-align: center;
+    color: #006400;
+    text-transform: uppercase;
+}
+.chem
+{
+    width: 40%;
+   
+}
+.ufs 
+{
+    width: 100%;
+}
+
+#Chemistry li
+{
+    list-style: none;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+#Computer
+{
+    float: left;
+    width: 40%;
+    padding-right: 60px;
+}
+#Computer h2
+{  
+    font-family: 'Gabriola', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+#Computer img
+{
+    width: 90%;
+    align-items: center;
+}
+#Computer li
+{
+    list-style: none;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+#Achi
+{
+    clear: both;
+    
+}
+#Achi h4
+{
+    font-family: 'Gabriola', sans-serif;
+    color: #006400;
+    text-align: center;
+    text-transform: uppercase;
+}
+#Achi p
+{
+    text-align:left;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#Achi img
+{
+    
+    width: 30%;
+}
+
+#do
+{
+    clear: both;
+    
+}
+#do p
+{
+    width: 50%;
+    float: left;
+    padding-right:30px;
+    text-align:left;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+#do img
+{
+    width: 30%;
+    float:right;
+    padding-left: 30px;
+    
+}
+#Project
+{
+    clear: both;
+}
+#Project a
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration-style: wavy;
+    color: #2e8b57;
+}
+
+#Project ul
+{
+    list-style-image:url(Images/Special%20Projects.png);
+    width:50%; 
+    float:left;
+    padding-right: 30px;
+}
+#Project img
+{
+    width: 30%;
+    float:right;
+    padding-left: 30px;
+}
+#Career
+{
+    clear: both;
+}
+#Career p
+{
+    width: 60%;
+    float:left;
+    padding-right: 30px;
+}
+#Career img
+{
+    width: 30%;
+    float:right;
+    padding-left: 30px;
+}
+#Contact
+{
+    clear: both;
+}
+#Resume
+{
+    clear: both;
+}
+#Resume a
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration-style: wavy;
+    color: #2e8b57;
+}
+
+#Contact img
+{
+    width: 5%;
+}
+#Contact h2
+{
+    text-align: center;
+}
+#Contact p
+{
+    text-align: center;
+}
+#Contact a
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration-style: wavy;
+    color: #2e8b57;
+}
+
+#Social img
+{
+    width: 10%;
+
+}
+#Social
+{
+      padding : 30px 0px; 
+        
+}
+#copyright
+{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: #006400;
+    padding-top: 20px;
+    clear: both;
+}
+
+#copyright p
+{
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
